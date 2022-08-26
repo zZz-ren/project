@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* .layer{
+      background: linear-gradient(to bottom,#53ccff,#5820ff);
+      background-size: cover;
+      height: 100vh;
+      position: relative;
+  }  */
+
+body {
+  background: linear-gradient(to bottom, #b6e9ff, #6dd3ff, #00bfe5) fixed;
+}
+
+header {
+  padding-top: 15px;
+  /* background-image: url("/img/orange.jpg"); */
+  max-width: 100%;
+  /* height: 11vh; */
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  margin-top: 2.2px;
+  margin-left: 2.2px;
+  margin-right: 2.2px;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+  float: right;
+}
+
+li {
+  display: inline-block;
+}
+
+a:not(.log, .ap-link) {
+  text-decoration: none;
+  font-size: 1.6vw;
+  border-left: 2px solid black;
+  /* border-radius: 9px; */
+  color: rgb(0, 0, 0);
+  font-weight: bolder;
+  padding: 5px 50px;
+  transition: 0.8s;
+}
+
+a:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+.logo img {
+  float: left;
+  width: 61px;
+  height: auto;
+  margin-left: 4px;
+  margin-top: -18px;
+}
+
+
+.product-card {
+  /* width: calc(100%-20px); */
+  width: 93%;
+  margin: 20px;
+  float: left;
+  padding: 19px;
+  border-radius: 20px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 20%;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product-card .image img {
+  height: 86%;
+}
+
+.product-card .title {
+  text-align: left;
+  font-size: 20px;
+  display: grid;
+  grid-template-rows: 0.8fr 0.8fr;
+}
+
+.btn {
+  float: left;
+  margin: 20px;
+  background: linear-gradient(to right, #ec0000, #ffad06);
+  color: white;
+  width: 120px;
+  height: 45px;
+  padding: 7px;
+  border: none;
+  border-radius: 30px;
+}
+
+.product-card .title p {
+  color: #ffffff;
+  height: min-content;
+  padding: 10px;
+  font-size: larger;
+  background-color: rgb(60, 219, 255);
+  border-radius: 10px;
+}
+
+.h3-font-weight-bold {
+  font-size: 27px;
+  line-height: 22px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700px;
+}
+
+.product_subtitle {
+  font-size: 16px;
+  color: #575757;
+  margin-top: 4px;
+  margin-bottom: 8px;
+}
+
+.product-page-info__price {
+  float: left;
+  width: 100%;
+}
+.mrp{
+  color: #575757;
+
+}
+
+.productPrice{
+  color:#044b9a;
+  font-weight: bolder;
+}
+
+.product-price-info{
+  color: #057743;
+    font-weight: 500;
+}
+
+.offers_box {
+  display: inline-block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  background-color: #fff1de;
+  margin-top: 12px;
+  border-radius: 2px;
+}
+
+.offers_box div,.offers_box li {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  line-height: 1.2;
+  padding: 8px 0px;
+  font-size: 14px;
+  color: #151515;
+  font-weight: 600;
+  background-image: url(https://cdn.shopify.com/s/files/1/0086/0795/7054/files/discount_icon.svg?v=1646465597);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  padding-left: 24px;
+  background-position: 0px 8px;
+}
+
+.offers_box div b,.offers_box li b{
+  color: rgb(226, 113, 0);
+}
+
+.quantity{
+  padding: 10px;
+  width: auto;
+  float: left;
+}
+
+.quantity li h2{
+  font-size: 22px;
+  color: rgba(36, 36, 36, 0.9);
+}
+
+.quantity button{
+  background: none;
+  border: none;
+}
+
+#count{
+  color: #575757;
+  font-size: 30px;
+  padding: 15px;
+}
+
+.quantity i{
+  color: rgb(226, 113, 0);
+  font-size: 30px;
+}

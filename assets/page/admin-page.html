@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charseat='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/solid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@400;700&family=DM+Serif+Text&family=Dancing+Script&family=Poppins:wght@400;500;600&family=Rubik:wght@400;500&display=swap"
+        rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../CSS/style-2.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+
+    <div class="layer">
+
+        <header>
+            <div class="logo"><a class="log" href="home.html"><img src="../img/logo.png"></a></div>
+            <div class="nav">
+
+                <ul class="nav-one">
+                    <li><a class="" href="login.html">User</a></li>
+
+                    <li><a href="cart.html">Cart</a></li>
+
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <button class="top-btn" onclick="gototop()">Top</button>
+
+        <div class="div-temp">
+            <div class="greet">
+                <h1 >
+                    Hii
+                </h1>
+                <h1 >
+                    Admin!!
+                </h1>
+                <h2>
+                    What would you like to do today?
+                </h2>
+            </div>
+    
+            <div class="options">
+                <ul>
+                    <li>
+                        <button class="btn-options" onclick="gotoremove()">Add-Remove</button>
+                    </li>
+                    <li>
+                        <button class="btn-options" onclick="gotodb()">Database</button>
+                    </li>
+                    <li>
+                        <button class="btn-options" onclick="gotoupdate()">Update</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="databse">
+
+        </div>
+
+        <div id="remove">
+
+            <h1>Remove Form</h1>
+
+            <form action="#" id="r-form">
+                <h2 class="name" id="input-field">Enter Product Name</h2>
+                <input type="text" id="field">
+                <h2 class="descp" id="input-field">Enter Description</h2>
+                <input type="text" id="field">
+                <h2 class="descp" id="input-field">Enter Image Name</h2>
+                <input type="text" id="field">
+            </form>
+
+            <h1>Add Form</h1>
+
+            <form action="#" id="r-form">
+                <h2 class="name" id="input-field">Enter Product Name</h2>
+                <input type="text" id="field">
+                <h2 class="descp" id="input-field">Enter Description</h2>
+                <input type="text" id="field">
+                <h2 class="descp" id="input-field">Enter Image Name</h2>
+                <input type="text" id="field">
+            </form>
+        </div>
+
+        <div id="update">
+
+        </div>
+
+    </div>
+    <script src="../JS/javascript.js"></script>
+</body>
+
+</html>
